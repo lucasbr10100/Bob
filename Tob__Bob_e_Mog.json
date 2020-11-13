@@ -1,0 +1,264 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lucas",
+				"abbreviation": "LCS",
+				"full": "Lucas",
+				"url": "",
+				"authors": [],
+				"convertedBy": []
+			}
+		],
+		"dateAdded": 1605277466,
+		"dateLastModified": 1605277466
+	},
+	"monster": [
+		{
+			"name": "Tob, Bob e Mog",
+			"source": "Lucas",
+			"page": 215,
+			"size": "L",
+			"type": "monstrosity",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"ac": [
+				{
+					"ac": 18,
+					"from": [
+						"{@item splint armor|phb}",
+						"(19 with {@item flying chariot|mot})"
+					],
+					"condition": "Aprimoramento Perfurante Perfeito e Proteção Mistica"
+				}
+			],
+			"hp": {
+				"formula": "11d10 + 66",
+				"average": 126
+			},
+			"speed": {
+				"walk": 60,
+				"fly": {
+					"number": 60,
+					"condition": "(Wings of Flying)"
+				},
+				"canHover": false,
+				"swim": {
+					"number": 40,
+					"condition": "(Anel de Natação)"
+				}
+			},
+			"str": 19,
+			"dex": 12,
+			"con": 18,
+			"int": 19,
+			"wis": 16,
+			"cha": 9,
+			"skill": {
+				"athletics": "+7",
+				"perception": "+9",
+				"stealth": "+4"
+			},
+			"senses": [
+				"truesight 30 ft.",
+				"darkvision 60 ft."
+			],
+			"passive": 19,
+			"immune": [
+				"fire",
+				"necrotic"
+			],
+			"conditionImmune": [
+				"blinded",
+				"charmed",
+				"deafened",
+				"exhaustion",
+				"frightened",
+				"stunned"
+			],
+			"languages": [
+				"Common and understands all outher's languages but can't speak"
+			],
+			"cr": "6",
+			"trait": [
+				{
+					"name": "Aggressive",
+					"entries": [
+						"As a bonus action, the cerberus can move up to its speed toward a hostile creature that it can see."
+					]
+				},
+				{
+					"name": "Multiheaded",
+					"entries": [
+						"The cerberus can't be surprised, and it has advantage on saving throws against being knocked {@condition unconscious}."
+					]
+				},
+				{
+					"name": "Pack Tactics",
+					"entries": [
+						"The cerberus has advantage on an attack roll against a creature if at least one of the cerberus's allies is within 5 feet of the creature and the ally isn't {@condition incapacitated}."
+					]
+				},
+				{
+					"name": "Insígnia das Garras",
+					"entries": [
+						"+1 de Acerto e de dano, dano passa a ser mágico."
+					]
+				},
+				{
+					"name": "Tiara do Intelecto (Sintonização)",
+					"entries": [
+						"Your Intelligence score is 19 while you wear this headband. It has no effect on you if your Intelligence is already 19 or higher without it."
+					]
+				},
+				{
+					"name": "Cota de Talas: Perfurante Perfeito e Proteção Mistica",
+					"entries": [
+						"17 de CA",
+						"Proteção Mística: +1 de CA",
+						"Perfurante Perfeito: Resistência a dano perfurante."
+					]
+				},
+				{
+					"name": "Treino Agressivo",
+					"entries": [
+						"O animal recebe +2 em rolagens de ataque enquanto estiver a 9m (30 pés) de seu dono."
+					]
+				},
+				{
+					"name": "Treino Vigoroso",
+					"entries": [
+						"O animal ganha +2 de Pontos de Vida Máximo para cada dado de vida que ela tem."
+					]
+				},
+				{
+					"name": "Wings of Flying (Sintonização)",
+					"entries": [
+						"While wearing this cloak, you can use an action to speak its command word. This turns the cloak into a pair of bat wings or bird wings on your back for 1 hour or until you repeat the command word as an action. The wings give you a flying speed of 60 feet. When they disappear, you can't use them again for [[{@dice 1d12}]] hours."
+					]
+				},
+				{
+					"name": "Goggles of Night",
+					"entries": [
+						"While wearing these dark lenses, you have darkvision out to a range of 60 feet. If you already have darkvision, wearing the goggles increases its range by 60 feet."
+					]
+				},
+				{
+					"name": "Anel de Natação",
+					"entries": [
+						"You have a swimming speed of 40 feet while wearing this ring."
+					]
+				},
+				{
+					"name": "Anel de Andar na Água",
+					"entries": [
+						"While wearing this ring, you can stand on and move across any liquid surface as if it were solid ground."
+					]
+				},
+				{
+					"name": "Feather Token",
+					"entries": [
+						"This small metal disk is inscribed with the image of a feather. When you fall at least 20 feet while the token is on your person, you descend 60 feet per round and take no damage from falling. The token's magic is expended after you land, whereupon the disk becomes nonmagical."
+					]
+				},
+				{
+					"name": "Saddle of the Cavalier",
+					"entries": [
+						"While in this saddle on a mount, you can't be dismounted against your will if you're conscious, and attack rolls against the mount have disadvantage."
+					]
+				},
+				{
+					"name": "Flying Chariot",
+					"entries": [
+						"The chariot's riders and creatures pulling the chariot gain a +1 bonus to their AC.",
+						"If this magic chariot is pulled by one or more flying creatures, it too can fly."
+					]
+				},
+				{
+					"name": "Necklace of Adaptation (Sintonização)",
+					"entries": [
+						"While wearing this necklace, you can breathe normally in any environment, and you have advantage on saving throws made against harmful gases and vapors (such as cloudkill and stinking cloud effects, inhaled poisons, and the breath weapons of some dragons)."
+					]
+				}
+			],
+			"action": [
+				{
+					"name": "Multiattack",
+					"entries": [
+						"The cerberus makes three bite attacks."
+					]
+				},
+				{
+					"name": "Bite",
+					"entries": [
+						"{@atk mw} {@hit 8} to hit, reach 5 ft., one target. {@h}11 ({@damage 2d6 + 4}) piercing damage plus 3 ({@damage 1d6}) fire damage."
+					]
+				},
+				{
+					"name": "Breath Weapon {@recharge 5}",
+					"entries": [
+						"The cerberus exhales a 30-foot cone of molten rock. Each creature in the cone must make a {@dc 15} Dexterity saving throw, taking 21 ({@damage 6d6}) fire damage on a failed save, or half as much damage on a successful one. On a failed save, a creature is also {@condition restrained} by the hardening rock. A creature can make a {@dc 15} Strength (Athletics) check as an action, freeing itself or a creature within reach from the rock on a success. The rock has AC 17 and 20 hit points, and it is immune to fire, poison, and psychic damage."
+					]
+				}
+			],
+			"traitTags": [
+				"Aggressive",
+				"Pack Tactics"
+			],
+			"senseTags": [
+				"U",
+				"D"
+			],
+			"actionTags": [
+				"Multiattack"
+			],
+			"languageTags": [
+				"C",
+				"CS",
+				"XX"
+			],
+			"damageTags": [
+				"P",
+				"F"
+			],
+			"miscTags": [
+				"MW",
+				"AOE"
+			],
+			"conditionInflict": [
+				"restrained"
+			],
+			"tokenUrl": "https://cdn.discordapp.com/attachments/687483712602243142/776803495294009384/Bob_Tob_e_Mog_Token.png",
+			"fluff": {
+				"entries": [
+					{
+						"type": "entries",
+						"entries": [
+							"Three-headed cerberi dwell deep in the Underworld. Terrifying and cunning, they guard portals between the wards of the Underworld, Erebos's greatest treasures, and noteworthy souls who might attempt to escape the realm of the dead. Three-headed cerberi commonly serve demons, but if left to their own devices, they often herd wily souls into labyrinthine Underworld wildernesses, then hunt them for sport.",
+							"Feared by the living and the dead, cerberi patrol both banks of the Tartyx River. These multiheaded hounds of the Underworld breathe gouts of molten rock that sear and imprison those who trespass upon the borders of life and death. Most cerberi have a boundless hunger for fresh meat, especially the flesh of humanoids. Villains have been known to exploit that hunger by luring cerberi away from the river and setting them loose on mortal settlements."
+						]
+					}
+				],
+				"images": [
+					{
+						"type": "image",
+						"href": {
+							"type": "external",
+							"url": "https://cdn.discordapp.com/attachments/687483712602243142/776803347595264070/Bob_Tob_e_Mog.jpg"
+						}
+					}
+				]
+			},
+			"resist": [
+				"piercing"
+			],
+			"environment": [
+				"coastal"
+			],
+			"familiar": true,
+			"isNamedCreature": true
+		}
+	]
+}
